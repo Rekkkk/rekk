@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+    width: 100%;
+    max-width: 300px;
+}
+#grad1::before {
+    content: '';
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ background-image: linear-gradient(to right, red , yellow);
+}
+</style>
+</head>
+<body>
+
+<h1>Linear Gradient - Top to Bottom</h1>
+<p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+<div>
+    <div id="grad1">
+        <img src="/1.png" alt="">
+    </div>
+    
+</div>
+
+
+</body>
+</html>
+
+
